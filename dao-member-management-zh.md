@@ -1,9 +1,15 @@
+# aelf DAO管理委员会成员加入/退出操作指南
+
+英文版教程链接：[dao-member-management](https://github.com/DAO-Testnet/Docs/blob/master/dao-member-management.md)
+
+---
+
 ## 1.aelf DAO管理委员会成员加入
 ### 1.1 aelf DAO管理委员会加入条件
-抵押一定数量的ELF（具体数量待aelf DAO管理委会成员决议确定）
+抵押一定数量的ELF（具体数量待aelf DAO管理委会员决议确定）
 
 ### 1.2 aelf DAO管理委员会加入流程
-![图片](https://uploader.shimo.im/f/Ql1hCYAvZ38AJUn2.png!thumbnail)
+![图片](https://uploader.shimo.im/f/qT32N1zFgZ5PBAwa.png!thumbnail)
 
 ### 1.3 aelf DAO管理委员会加入指南
 **1.3.1 申请提案：**
@@ -36,7 +42,7 @@
 ### 1.4 加入成功后aelf DAO管理委员会的组织变更
 aelf DAO管理委员会成员加入后，aelf DAO合约会自动调整aelf DAO管理委员会组织成员和投票阈值；即aelf DAO管理委员会成员有变更时，这些数据都会被自动设置为当前aelf DAO管理委员会成员数量的1/2。
 
-**aelf ****DAO****管理委员会****组织要求和权限：**
+**aelf DAO****管理委员会****组织要求和权限：**
 
 **创建人：** aelf DAO合约
 
@@ -49,6 +55,8 @@ aelf DAO管理委员会成员加入后，aelf DAO合约会自动调整aelf DAO�
 | 组织成员   | aelf DAO管理委员会成员 (aelf DAO合约部署后，初始化时可以传入aelf DAO管理委员会初始成员，如果没有初始成员，则这条链的节点为初始成员)   | 
 | 提案白名单   | aelf DAO合约   | 
 | 提案通过阈值   | 同意>=1，反对<=0，弃权<=0，总票数>=1  （对于aelf DAO管理委员会成员投票的实际阈值：同意>=50%，反对<=50%，弃权<=50%，总票数>=50%，该阈值在修改时需输入数值，以比例换算对应数值）   | 
+
+---
 
 ## 2.aelf DAO管理委员会成员退出
 ### 2.1 aelf DAO管理委员会退出流程
@@ -86,9 +94,11 @@ aelf DAO管理委员会成员加入后，aelf DAO合约会自动调整aelf DAO�
 
 * 如果投票通过后，由申请人在到期前执行提案；提案执行成功后即该申请人退出成功；同时链上对抵押的ELF进行退还或没收/销毁；
 * 如果投票未通过，成员退出失败。
+
 ### 2.3 退出成功后aelf DAO管理委员会的组织变更
 aelf DAO管理委员会成员加入后，aelf DAO合约会自动调整aelf DAO管理委员会组织成员和投票阈值；即aelf DAO管理委员会成员有变更时，这些数据都会被自动设置为当前aelf DAO管理委员会成员数量的1/2。
 
+---
 
 ## 3.我们的社区
 ### GitHub Organization
